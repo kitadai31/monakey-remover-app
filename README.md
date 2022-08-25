@@ -16,13 +16,13 @@ PCも環境構築も不要で初心者でも簡単　打倒鍵無効
 詳しい手順は以下
 
 ## 事前準備
-まず、今お使いのChMate(元の署名)はアンインストールする必要があります。バックアップを取ってアンインストールしてください。
+まず、今お使いのChMate(元の署名)はアンインストールする必要があります(署名が違うため)。バックアップを取ってアンインストールしてください。
 
 次に、私kitadai31によってkitadai31の署名鍵で再署名されたChMateをインストールします。
 
 [ChMate0.8.10.153_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.153_resigned_kitadai31.apk)
 
-[Other versions (please tap "View code")](https://github.com/kitadai31/kitadai31)
+<sub>[Other versions (please tap "View code")](https://github.com/kitadai31/kitadai31)<sub>
 
 この時、Playプロテクトの警告が出たら「OK」***で は な く***その左の インストールする を押します。
 
@@ -102,12 +102,15 @@ ChMateでDev版とPlay版のバージョンが同じだと、Dev版を使って�
   - 安全性が気になれば、再署名と鍵削除アプリのビルドを自前で行えば同じことができます。署名が同じならOK
 
 ## 注意事項
-再署名されたChMateを使うので、PlayストアやDeployGateで更新できなくなります。  
-万が一私が消えた場合、データを維持したまま今後もアップデートしたければ [kitadai31.jks](https://github.com/kitadai31/monakey-remover-app/raw/master/kitadai31.jks) でずっと再署名し続ける必要があります。(もしくはアンインストールして元の署名のChMateを入れ直す)
+再署名されたChMateを使うので、PlayストアやDeployGateで更新できなくなります。署名違いのmateを入れるにはアンインストールが必要です。
 
-ちなみにいくら鍵を消したところで、規制中の板に当該の回線や専ブラで書き込めばまた鍵が無効化されるだけなので、鍵規制の根本的な回避にはなりません（重要）。
+一応使っている署名鍵は載せておきます パスワードは000000
+
+[kitadai31.jks(直リン注意)](https://github.com/kitadai31/monakey-remover-app/raw/master/kitadai31.jks)
+
+なお、いくら鍵(MonaKey)を消したところで、規制中の板に当該の回線や専ブラで書き込めばまた鍵が無効化されるだけなので、鍵規制の根本的な回避にはなりません（重要）。
 
 また、あるアプリを全く異なるアプリで上書きする、という通常ではありえないことをやるので、思わぬ不具合が発生するかもしれません。  
 データのバックアップは必ず取っておいてください。  
-この方法を使ったことにより損害があっても作成者は責任を負いません。使用は自己責任でお願いします。  
+この手法を使うのは自己責任でお願いします。  
 何らかの不都合が起こったら教えていただけると助かります。
