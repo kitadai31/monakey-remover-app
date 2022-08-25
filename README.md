@@ -7,6 +7,8 @@
 
 [鍵削除アプリの動作イメージ.png](https://user-images.githubusercontent.com/90122968/183068963-abf71e3c-4b16-43e6-b9f4-616e92564b03.png)
 
+PC、環境構築不要　初心者向け
+
 ## 事前準備～実際の使用法を3行で(tl;dr)
 1. kitadai31再署名版のChMateをインストールする
 2. 鍵削除アプリのapkをダウンロードしておく
@@ -20,6 +22,8 @@
 次に、私kitadai31によってkitadai31の署名鍵で再署名されたChMateをインストールします。
 
 [ChMate0.8.10.153_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.153_resigned_kitadai31.apk)
+
+[Other versions (please tap "View code")](https://github.com/kitadai31/kitadai31)
 
 この時、Playプロテクトの警告が出たら「OK」***で は な く***その左の インストールする を押します。
 
