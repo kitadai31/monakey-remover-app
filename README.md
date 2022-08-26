@@ -36,7 +36,7 @@ PCも環境構築も不要で初心者でも簡単　打倒鍵無効
 
 すると、ChMateが鍵アイコンのアプリに置き換わるので、起動します。
 
-![Screenshot_20220823-225738](https://user-images.githubusercontent.com/90122968/186178402-2f774f67-2931-46d8-8c9c-4034e895cb4f.png)
+![Screenshot_20220823-225738_compress](https://user-images.githubusercontent.com/90122968/186873447-91f7876f-7f6e-4d51-9370-d2aadb7c001d.jpg)
 
 削除ボタンを押したら、鍵の削除は完了です。
 
