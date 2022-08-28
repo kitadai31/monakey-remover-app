@@ -9,9 +9,9 @@ android {
         applicationId "jp.co.airfront.android.a2chMate"
         minSdk 16
         targetSdk 32
-        versionCode 1
-        versionName '1.0'
-    } //バージョンコードとバージョン名はここではなく下のビルドバリアントで指定する
+        versionCode 417
+        versionName '0.8.10.153 dev'
+    }
 
     buildTypes {
         release {
@@ -23,27 +23,5 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    /*
-    ビルドバリアント(flavor)を用いて、さまざまなバージョンコードを簡単に切り替えてビルドできるようにしています。
-    Android Studioなら、 Generate Signed Bundle/APK でビルドするときにバリアントを選べます。
-
-    ここにない新たなmateのバージョンに対応させるには、productFlavorをコピペで増やします。
-    名前をver155とかに変更して、versionCodeとversionNameをその対応させたいmateのものに合わせます。
-    そしてビルド時にその新たに増やしたバリアントを選ぶことで、新しいmateに対応した鍵削除アプリをビルドできます。
-    */
-    flavorDimensions 'aiueo'
-    productFlavors {
-        ver153 {
-            dimension 'aiueo'
-            versionCode 417
-            versionName '0.8.10.153 dev'
-        }
-        ver154 {
-            dimension 'aiueo'
-            versionCode 418
-            versionName '0.8.10.154 dev'
-        }
     }
 }
