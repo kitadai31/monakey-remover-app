@@ -97,3 +97,5 @@ lint/tmp/
 /build
 /captures
 .cxx
+
+.idea/misc.xml
