@@ -14,7 +14,7 @@ PC不要、環境構築不要、root化不要、知識不要。
 
 ChMateのMonaKeyはアプリデータ領域に保存されているため他のアプリからは触れませんが、ChMate自体を上書きしてしまえばChMateのアプリデータにアクセスできるので鍵だけを消すことができます。
 
-[鍵削除アプリの動作イメージ.png](https://user-images.githubusercontent.com/90122968/183068963-abf71e3c-4b16-43e6-b9f4-616e92564b03.png)
+[鍵削除アプリの動作イメージ.png](https://user-images.githubusercontent.com/90122968/189396124-af37b6de-9856-4cc2-bf39-2082efff2ccf.png)
 
 ## 事前準備～実際の使用方法を簡単にまとめると…
 1. kitadai31再署名版のChMateをインストールする
