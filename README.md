@@ -14,7 +14,7 @@ PC不要、環境構築不要、root化不要、知識不要。
 
 ChMateのMonaKeyはアプリデータ領域に保存されているため他のアプリからは触れませんが、ChMate自体を上書きしてしまえばChMateのアプリデータにアクセスできるので鍵だけを消すことができます。
 
-[鍵削除アプリの動作イメージ.png](https://user-images.githubusercontent.com/90122968/189396124-af37b6de-9856-4cc2-bf39-2082efff2ccf.png)
+<img src="https://user-images.githubusercontent.com/90122968/189396124-af37b6de-9856-4cc2-bf39-2082efff2ccf.png" width="200px">
 
 ## 事前準備～実際の使用方法を簡単にまとめると…
 1. kitadai31再署名版のChMateをインストールする
@@ -31,6 +31,8 @@ ChMateのMonaKeyはアプリデータ領域に保存されているため他の�
 [ChMate0.8.10.153_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.153_resigned_kitadai31.apk)
 
 [ChMate0.8.10.154_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.154_resigned_kitadai31.apk)
+
+[ChMate0.8.10.158_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.158_resigned_kitadai31.apk)
 
 この時、Playプロテクトの警告が出たら「OK」***で は な く***その左の インストールする を押します。
 
