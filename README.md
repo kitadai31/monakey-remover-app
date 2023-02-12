@@ -32,9 +32,11 @@ mateを再署名して、同じパッケージ名の別アプリでmateを上書
 
 [ChMate0.8.10.153_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.153_resigned_kitadai31.apk)
 
-[ChMate0.8.10.158_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.158_resigned_kitadai31.apk)
-
-この時、もしPlayプロテクトの警告が出たら「OK」ではなくその左の「インストールする」を押します。
+~~[ChMate0.8.10.154_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.154_resigned_kitadai31.apk)~~  
+~~[ChMate0.8.10.158_resigned_kitadai31.apk](https://raw.githubusercontent.com/kitadai31/kitadai31/main/ChMate0.8.10.158_resigned_kitadai31.apk)~~  
+<sub>154以降は再署名すると起動しないという報告がありました。  
+私の環境では再署名してなくても起動しないので、何も確かめられませんが……  
+もし動いた人がいたらぜひ報告お願いします。</sub>
 
 ### 2. 鍵削除アプリをダウンロード
 
@@ -104,8 +106,9 @@ mateを再署名する必要があるのはこのためです。
   よってこれは広めていいものでしょう。
   - そもそも悪いのは運営です。  
   UAと回線という絶対巻き添えが発生する規制方法を使っておきながら、もし巻き添えに引っかかったら全板BANというのはおかしな話です。  
-  何も悪くない人がうっかり巻き添え規制中の板に書き込んでしまっただけで全板でBANされるのは間違っています  
-  巻き添え規制なら、当該板のみの規制にとどめておくべきです。鍵をBANすべきではないと思います。
+  何も悪くない人が、うっかり巻き添え規制中の板に書き込んでしまっただけで全板でBANされるのは間違っています。  
+  鍵をBANするのではく、当該板のみの規制にとどめておくべきだと私は思います。  
+  (逆に、NGワードなどの巻き添えでない規制ならその人をピンポイントにBANするのは有効でしょう。)
 - 安全ですか？
   - ChMateの再署名は、単にapksignerで上書きしただけです。最も安全なやり方だと思います。中身は一切手を加えていません。
   - (昔のjarsignerだと署名を消してからじゃないと再署名できなかったが、今のapksignerでは上から直接再署名が可能。)
@@ -117,7 +120,7 @@ mateを再署名する必要があるのはこのためです。
   - https://github.com/kitadai31/monakey-remover
 - root環境の人は？
   - この方法は非root向けです。rootの方は、/data/data/内のmateのデータの2chapi.xmlを直接編集するなりXposedでTsubonofutaさんを使うなりすればいいと思います。
-- APKをインストールしようとするとPlayプロテクトが出てインストールされないのですが。
+- APKをインストールしようとするとPlayプロテクトの警告が出てインストールされないのですが。
   - 作りたての署名鍵を使うとPlayプロテクトに警告されるようです。「OK」ではなくその左の「インストールする」を押せば警告を無視してインストールできます。
   - インストール後に「この未知のアプリを送信しますか？」みたいな画面が出たら根気よく送信していくことで、そのうちGoogleに認知されて警告が出なくなるようです。 
   (追記 2022/12現在もう警告が出なくなりました。やはり送信をするのが大切なようです)
